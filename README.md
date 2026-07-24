@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="Colorectal Chemo Modelling banner" width="100%">
+  <img src="assets/banner.png" alt="Colorectal Chemo Modelling banner" width="100%">
 </p>
 
 # Colorectal Chemo Modelling
