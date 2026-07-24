@@ -61,7 +61,8 @@ Notebooks are numbered and meant to be run in order.
 Datasets are not yet finalised. `data/raw/` and `data/processed/` are kept empty (with `.gitkeep`) — actual data files should **not** be committed to the repo. Once sources are confirmed, document them here (name, link, what it provides, download date).
 
 ## Team
-
-- Caolan — 
-- 
-- 
+- loveness.sibanda1@ucdconnect.ie	
+- caolan.maguire@ucdconnect.ie
+- amritansh.tiwari@ucdconnect.ie,
+- mohammad.mujtaba@ucdconnect.ie,
+- sofya-anastasia.skosyreva@ucdconnect.ie
