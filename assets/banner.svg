@@ -1,0 +1,62 @@
+<svg width="1200" height="280" viewBox="0 0 1200 280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f2942"/>
+      <stop offset="100%" stop-color="#154a5c"/>
+    </linearGradient>
+    <linearGradient id="strand" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5fd3c4" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#5fd3c4" stop-opacity="0.15"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="280" fill="url(#bg)"/>
+
+  <!-- abstract DNA helix motif, right side -->
+  <g opacity="0.9">
+    <path d="M 780 0 C 860 40, 860 80, 780 120 C 700 160, 700 200, 780 240 C 830 265, 860 275, 900 280"
+          fill="none" stroke="url(#strand)" stroke-width="4"/>
+    <path d="M 840 0 C 920 40, 920 80, 840 120 C 760 160, 760 200, 840 240 C 890 265, 920 275, 960 280"
+          fill="none" stroke="url(#strand)" stroke-width="4"/>
+    <!-- rungs -->
+    <g stroke="#5fd3c4" stroke-width="2" opacity="0.5">
+      <line x1="782" y1="14" x2="838" y2="14"/>
+      <line x1="795" y1="50" x2="855" y2="50"/>
+      <line x1="780" y1="90" x2="838" y2="90"/>
+      <line x1="750" y1="125" x2="800" y2="125"/>
+      <line x1="750" y1="160" x2="800" y2="160"/>
+      <line x1="780" y1="195" x2="838" y2="195"/>
+      <line x1="800" y1="230" x2="858" y2="230"/>
+      <line x1="830" y1="260" x2="885" y2="260"/>
+    </g>
+  </g>
+
+  <!-- scattered nodes, subtle -->
+  <g fill="#5fd3c4" opacity="0.35">
+    <circle cx="1000" cy="60" r="4"/>
+    <circle cx="1060" cy="150" r="3"/>
+    <circle cx="1120" cy="90" r="5"/>
+    <circle cx="1150" cy="200" r="3"/>
+    <circle cx="980" cy="220" r="3"/>
+  </g>
+
+  <!-- title text -->
+  <text x="60" y="120" font-family="Helvetica, Arial, sans-serif" font-size="46" font-weight="700" fill="#f4f7f6">
+    Colorectal Chemo Modelling
+  </text>
+  <text x="60" y="160" font-family="Helvetica, Arial, sans-serif" font-size="20" fill="#a9d4c9">
+    Cell-line &amp; patient regression models for chemotherapy response
+  </text>
+
+  <!-- small tag row -->
+  <g font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#0f2942">
+    <rect x="60" y="190" width="86" height="28" rx="14" fill="#5fd3c4"/>
+    <text x="75" y="209">Python</text>
+
+    <rect x="156" y="190" width="130" height="28" rx="14" fill="#5fd3c4"/>
+    <text x="171" y="209">Jupyter Notebook</text>
+
+    <rect x="296" y="190" width="150" height="28" rx="14" fill="#5fd3c4"/>
+    <text x="311" y="209">Regression + Cox model</text>
+  </g>
+</svg>
